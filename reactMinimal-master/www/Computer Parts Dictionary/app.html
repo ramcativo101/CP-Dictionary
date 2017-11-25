@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+         <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <title>Computer Dictionary</title>
+        <link rel="stylesheet" type="text/css" href="css/framework7.material.min.css">
+        <link rel="stylesheet" type="text/css" href="css/framework7.material.colors.min.css">
+        <link rel="stylesheet" type="text/css" href="css/my-app.css">
+    </head>
+    <body class='theme-teal'>
+        <div id="root"></div>
+
+
+    <div class="header">
+        <h2>Computer Parts Dictionary</h2>
+    </div>
+
+    <div class="wrapper">
+        <div class="words">
+            <input type="text" id="search" placeholder="search...">
+            <button onclick="search()">Go</button>
+
+            <ul id="word_list"></ul>
+
+        </div>
+
+        <div class="word">
+            <h3 id="word_text"></h3>
+            <p id="definition"></p>
+
+            <li id="related"></li>
+            
+        </div>
+
+    </div>  
+
+
+    </body>
+    <script type="text/javascript" src="js/sql.js"></script>
+    <!-- <script type="text/jsx" src="js/process.js"></script> -->
+    <script type="text/javascript" src="js/process.js"></script>
+</html>
